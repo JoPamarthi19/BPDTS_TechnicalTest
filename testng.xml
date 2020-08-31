@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Api_Suite">
+  <test name="Api_Test">
+    <classes>
+      <class name="com.bptest.api.tests.BptestApiTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

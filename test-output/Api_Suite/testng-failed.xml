@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Api_Suite]">
+  <test name="Api_Test(failed)">
+    <classes>
+      <class name="com.bptest.api.tests.BptestApiTestCases">
+        <methods>
+          <include name="verifygetUserId"/>
+        </methods>
+      </class> <!-- com.bptest.api.tests.BptestApiTestCases -->
+    </classes>
+  </test> <!-- Api_Test(failed) -->
+</suite> <!-- Failed suite [Api_Suite] -->
